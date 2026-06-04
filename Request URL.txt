@@ -1,0 +1,334 @@
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-2/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/brands
+Request Method
+GET
+Status Code
+500 Internal Server Error
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-3/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/clients
+Request Method
+GET
+Status Code
+500 Internal Server Error
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-1/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/products
+Request Method
+GET
+Status Code
+500 Internal Server Error
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-2/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/catalogs
+Request Method
+GET
+Status Code
+500 Internal Server Error
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-1/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/referenced-files
+Request Method
+GET
+Status Code
+500 Internal Server Error
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-1/api/v1/prospective-suppliers/06a21ace-5972-7c3a-8000-6088339924cc/referenced-files?supplierId=06a21ace-5972-7c3a-8000-6088339924cc&referencedTypeCode=prospect&typeCode=rfc&name=RFC_SAT.pdf&description=
+Request Method
+POST
+Status Code
+500 Internal Server Error
+
+
+
+
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/entities/api/v1/states?countryId=069ebcb5-7f17-72c6-8000-f794311dc8f3
+Request Method
+GET
+Status Code
+200 OK
+{
+    "meta": {
+        "transactionID": "8f8e981a-1e9c-46dc-b6a6-a0d80e512009",
+        "timestamp": "2026-06-04T10:54:16.609969"
+    },
+    "data": []
+}
+
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/supplier-contacts/api/v1/prospective-suppliers/069bdcd3-e013-7a6f-8000-fc2c14129b69/contacts/00000000-0000-0000-0000-000000000000
+Request Method
+PUT
+Status Code
+500 Internal Server Error
+[
+    {
+        "id": "069bdcdb-9ca4-7ec4-8000-71e30a410a48",
+        "position": {
+            "id": "01997e01-d4d9-4f24-a483-f0cdcd59be6b",
+            "name": "LEGAL REPRESENTATIVE"
+        },
+        "name": "nacional",
+        "lastName": "coppel",
+        "telephoneNumber": "1234567890",
+        "mobileNumber": "1234567890",
+        "email": "nacional1@hezkybel.com"
+    }
+]
+{
+    "meta": {
+        "transaction_id": "45d2eaa0-f177-4962-a944-ff1a098060d5",
+        "status": "ERROR",
+        "timestamp": "2026-06-04T11:02:46.149623"
+    },
+    "data": "'ContactService' object has no attribute 'baseUrl'"
+}
+
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-1/api/v1/prospective-suppliers/069bdcd3-e013-7a6f-8000-fc2c14129b69
+Request Method
+PUT
+Status Code
+400 Bad Request
+{
+    "qrCodeAccessId": "",
+    "folio": "51",
+    "status": {
+        "id": "0681a2e8-2777-79a4-8000-e6d3832b465b",
+        "name": "validacion"
+    },
+    "isImport": false,
+    "taxSchemeType": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": "fisica"
+    },
+    "name": "",
+    "lastName": "",
+    "legalName": "Muebletron",
+    "tradeName": "Muebletron",
+    "foundationDate": "",
+    "businessType": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": ""
+    },
+    "supplierTypeCode": "distribuidor",
+    "factoriesCount": 0,
+    "employeesCount": 0,
+    "regionName": "latam",
+    "hasWorkedWithCoppel": false,
+    "websiteUrl": "www.muebletron.com",
+    "coppelSupplierId": 0,
+    "coppelSupplierName": "",
+    "coverageStates": [
+        {
+            "name": "CHIAPAS",
+            "id": "01997e1a-237e-4cd6-821e-d82f08a7bcd7"
+        }
+    ],
+    "coverageZones": [
+        {
+            "name": "OCCIDENTE CENTRO",
+            "id": "01997e08-6e76-472e-9dfa-d08ea3e58d7d"
+        }
+    ],
+    "salesChannels": [
+        {
+            "name": "MARKETPLACES",
+            "id": "01997e47-f998-40d7-a2f9-d08525f0c6ff"
+        }
+    ],
+    "adress": [
+        {
+            "vatId": "MUSY010203R3E",
+            "capitalRegimeType": "",
+            "country": {
+                "name": "",
+                "_id": "069bdcde-0066-78b9-8000-60001aca2666"
+            },
+            "state": {
+                "name": "",
+                "_id": "069bdcde-0066-7c23-8000-2d618fd6c351"
+            },
+            "city": "guadalajara",
+            "municipality": "zapopan",
+            "settlement": "el mante",
+            "postalCode": "316150",
+            "streetName": "miro",
+            "streetType": "calle",
+            "externalNumber": "1234",
+            "internalNumber": "12"
+        }
+    ],
+    "information": {
+        "qualityAssuranceControlsDescription": "",
+        "qualityAssuranceCertificatesDescription": "",
+        "licencesDescription": "",
+        "annualRevenueRange": {
+            "_id": "069bdcde-0066-7e88-8000-e5adb3d923eb",
+            "min": 100,
+            "max": 250
+        },
+        "oemMoq": 0,
+        "oemLeadTime": 0,
+        "paymentTerm": {
+            "_id": "069bdcde-0067-701b-8000-9095d338b914",
+            "name": ""
+        },
+        "coverage": {
+            "_id": "069bdcde-0067-7140-8000-4a45b2683a87",
+            "name": "REGIONAL"
+        }
+    },
+    "logistics": {
+        "incoterms": [],
+        "shipmentPortsDescription": ""
+    },
+    "citiesCount": 1,
+    "tax": {
+        "vatId": "MUSY010203R3E",
+        "capitalRegimeType": "",
+        "country": {
+            "name": "",
+            "_id": "069bdcde-0066-78b9-8000-60001aca2666"
+        },
+        "state": {
+            "name": "",
+            "_id": "069bdcde-0066-7c23-8000-2d618fd6c351"
+        },
+        "city": "guadalajara",
+        "municipality": "zapopan",
+        "settlement": "el mante",
+        "postalCode": "316150",
+        "streetName": "miro",
+        "streetType": "calle",
+        "externalNumber": "1234",
+        "internalNumber": "12"
+    },
+    "id": "069bdcd3-e013-7a6f-8000-fc2c14129b69"
+}
+        {
+          "meta": {
+            "transactionID": "56e374f8-3e9d-4fb9-b66f-34a6e06dfcbe",
+            "statusCode": 400,
+            "status": "Bad Request",
+            "timestamp": "2026-6-4T17:4:39",
+            "message": "[ERROR - Object instance has properties which are not allowed by the schema: [\"adress\"]: []]"
+          }
+        }
+
+
+Request URL
+https://dev-apigee.coppel.io/es/sourcing-procurement/supplier-management/suppliers-1/api/v1/prospective-suppliers/069bdcd3-e013-7a6f-8000-fc2c14129b69
+Request Method
+PUT
+Status Code
+500 Internal Server Error
+{
+    "qrCodeAccessId": "",
+    "folio": "51",
+    "status": {
+        "id": "0681a2e8-2777-79a4-8000-e6d3832b465b",
+        "name": "validacion"
+    },
+    "isImport": false,
+    "taxSchemeType": {
+        "name": "fisica",
+        "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "name": "",
+    "lastName": "",
+    "legalName": "Muebletron",
+    "tradeName": "Muebletron",
+    "foundationDate": "",
+    "businessType": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "name": ""
+    },
+    "supplierTypeCode": "distribuidor",
+    "factoriesCount": 0,
+    "employeesCount": 0,
+    "regionName": "latam",
+    "hasWorkedWithCoppel": false,
+    "websiteUrl": "www.muebletron.com",
+    "coppelSupplierId": 0,
+    "coppelSupplierName": "",
+    "coverageStates": [
+        {
+            "name": "CHIAPAS",
+            "id": "01997e1a-237e-4cd6-821e-d82f08a7bcd7"
+        }
+    ],
+    "coverageZones": [
+        {
+            "name": "OCCIDENTE CENTRO",
+            "id": "01997e08-6e76-472e-9dfa-d08ea3e58d7d"
+        }
+    ],
+    "salesChannels": [
+        {
+            "name": "MARKETPLACES",
+            "id": "01997e47-f998-40d7-a2f9-d08525f0c6ff"
+        }
+    ],
+    "tax": {
+        "vatId": "MUSY010203R3E",
+        "capitalRegimeType": "",
+        "country": {
+            "_id": "069bdcde-0066-78b9-8000-60001aca2666",
+            "name": ""
+        },
+        "state": {
+            "_id": "069bdcde-0066-7c23-8000-2d618fd6c351",
+            "name": ""
+        },
+        "city": "guadalajara",
+        "municipality": "zapopan",
+        "settlement": "el mante",
+        "postalCode": "31615",
+        "streetName": "miro",
+        "streetType": "calle",
+        "externalNumber": "1234",
+        "internalNumber": "12"
+    },
+    "information": {
+        "qualityAssuranceControlsDescription": "",
+        "qualityAssuranceCertificatesDescription": "",
+        "licencesDescription": "",
+        "annualRevenueRange": {
+            "_id": "069bdcde-0066-7e88-8000-e5adb3d923eb",
+            "min": 100,
+            "max": 250
+        },
+        "oemMoq": 0,
+        "oemLeadTime": 0,
+        "paymentTerm": {
+            "_id": "069bdcde-0067-701b-8000-9095d338b914",
+            "name": ""
+        },
+        "coverage": {
+            "_id": "069bdcde-0067-7140-8000-4a45b2683a87",
+            "name": "REGIONAL"
+        }
+    },
+    "logistics": {
+        "incoterms": [],
+        "shipmentPortsDescription": ""
+    },
+    "citiesCount": 1,
+    "id": "069bdcd3-e013-7a6f-8000-fc2c14129b69"
+}
+{
+    "meta": {
+        "transactionID": "66f33e5d-0d87-432f-8824-af39ab6e538f",
+        "status": "ERROR",
+        "timestamp": "2026-06-04T11:08:52.499190",
+        "message": "Error de servidor/servicio"
+    },
+    "success": false
+}
+
