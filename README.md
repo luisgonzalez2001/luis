@@ -332,3 +332,7 @@ Status Code
     "success": false
 }
 
+
+https://www.figma.com/design/mGz4fTbIcLztbZI0i3VF1E/Sistema-de-Gestion-de-Categori%CC%81as?node-id=40011079-1189&t=zOPIALP6Xemkrvwf-0
+
+https://docs.google.com/presentation/d/1H7EB0CKONYX4pHtnVtAqxuba-3Z9fMuU/edit?usp=sharing&ouid=104672534947161375805&rtpof=true&sd=true https://docs.google.com/presentation/d/1NuLS0RbrAM3O-jvfIXBDLX4wxs1d7Dpt/edit?usp=sharing&ouid=104672534947161375805&rtpof=true&sd=true
